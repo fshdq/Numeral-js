@@ -850,10 +850,10 @@
             decimal: ','
         },
         abbreviations: {
-            thousand: 'k',
-            million: 'Juta',
-            billion: 'Miliar',
-            trillion: 'Triliun'
+            thousand: ' k',
+            million: ' Juta',
+            billion: ' Miliar',
+            trillion: ' Triliun'
         },
         ordinal: function () {
             return '.';
