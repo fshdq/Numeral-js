@@ -842,5 +842,27 @@
     });
 })();
 
+(function() {
+    
+    numeral.register('locale', 'id', {
+        delimiters: {
+            thousands: '.',
+            decimal: ','
+        },
+        abbreviations: {
+            thousand: 'k',
+            million: 'Juta',
+            billion: 'Miliar',
+            trillion: 'Triliun'
+        },
+        ordinal: function () {
+            return '.';
+        },
+        currency: {
+            symbol: 'Rp.'
+        }
+    });
+})();
+
 
 }));
